@@ -21,8 +21,7 @@ class RepositoryList extends Component{
            <li>{this.props.repoInfo.map((repos,index) =>(
               <Repository key={index} {...repos} />
             ))}</li>
-          </ul>
-            
+          </ul>            
           </div>
         </div>
         </div>
