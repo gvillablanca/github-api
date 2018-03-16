@@ -15,11 +15,11 @@ class UserProfile extends Component{
     }
     render(){
       return(
-        <a href="#" className="list-group-item" onClick={this.getRepo}>
-          <img src={this.props.avatar_url} width="100px"/>
+        <a href="#" className="list-group-item result" onClick={this.getRepo}>
+          <img src={this.props.avatar_url} width="100px" className="rounded-circle"/>
           <div className="box">
-            <span>{this.props.login}</span> - <span>{this.props.id}</span><br/>
-            <a href={this.props.html_url} target="_blank">Profile</a>
+            <span>Nick: {this.props.login}</span> - <span>ID: {this.props.id}</span><br/>
+            <a href={this.props.html_url} target="_blank">Link a perfil de Github.</a>
             
           </div>
         </a>

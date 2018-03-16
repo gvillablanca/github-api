@@ -76,3 +76,49 @@
 .hide{
   display: none;
 }
+.jumbotron{
+  background-color: #00BCD4;
+  color: #4A148C;
+  font-size: 40px;
+}
+body{
+  background-color: #E0F7FA;
+}
+input{
+  background-color: #E0F7FA;
+  border: 1px solid #00BCD4;
+}
+.control-label{
+  margin-bottom: 2%;
+  color:#4A148C;
+}
+.panel-heading{
+  margin-bottom: 2%;
+  color:#4A148C;
+}
+.result{
+  background-color: #B2EBF2;
+  border-radius: 5px;
+  border:1px solid #00BCD4;
+  margin-bottom: 4%;
+
+}
+.btn-primary{
+  background-color: #B2EBF2;
+  border:1px solid #00BCD4;
+  color: #00BCD4;
+}
+ul{
+  list-style: none;
+}
+li{
+  color:#4A148C;
+  text-align: left;
+  margin-bottom: 2%;
+}
+.rounded-circle{
+  margin-right: 4%;
+}
+span{
+  margin-bottom: 2%;
+}

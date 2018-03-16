@@ -11,12 +11,18 @@ class RepositoryList extends Component{
     render(){
       return(
         <div className="panel panel-default">
-        <div className="panel-heading">Repositorios</div>
+        <div className="panel-heading">
+        <h3>Repositorios</h3>
+        <span>Presione el nick para despleagr repositorios</span>
+        </div>
         <div className="panel-body">
-          <div className="row center-items skill">
-            {this.props.repoInfo.map((repos,index) =>(
+          <div className="row left-items ">
+          <ul class="skill">
+           <li>{this.props.repoInfo.map((repos,index) =>(
               <Repository key={index} {...repos} />
-            ))}
+            ))}</li>
+          </ul>
+            
           </div>
         </div>
         </div>

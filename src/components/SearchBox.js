@@ -19,15 +19,17 @@ class SearchBox extends Component{
       return(
         <form onSubmit={this.searchUser} className="form-horizontal">
           <div class="form-group">
-            <label for="pName" class="control-label col-sm-2">Github Profile Name:</label>
+            <label for="pName" class="control-label col-sm-12">
+            <h3>Nombre perfil de github</h3>            
+            </label>
             <div class="col-sm-10">
               <input id="pName" type="text" value={this.state.username}
-              onChange={(event)=> this.setState({username:event.target.value})} placeholder="Enter the github user name." required className="form-control"/>
+              onChange={(event)=> this.setState({username:event.target.value})} placeholder="Ingrese nombre de perfil..." className="form-control"/>
             </div>
           </div>
           <div className="form-group">
             <div className="col-sm-offset-2 col-sm-10 ">
-              <button type="submit" className="btn btn-primary">Search</button>
+              <button type="submit" className="btn btn-primary">Buscar</button>
             </div>
           </div>
         </form>

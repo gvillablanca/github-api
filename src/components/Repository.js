@@ -12,8 +12,8 @@ class Repository extends Component{
   
     render(){
       return(
-        <div className="col-sm-2">
-          <div>{this.props.name}</div>
+        <div className="col-sm-12">
+          <div>*{this.props.name}</div>
         </div>
       );
     }
