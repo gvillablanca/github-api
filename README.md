@@ -1,3 +1,32 @@
+# Github Search
+
+Este proyecto encuentra el profile de un usuario mediante una busqueda a través de la API de Github:
+
++ Entrega fotografía del perfil
++ Nombre del usuario que al hacer click nos muestra una lista con los trabajos en el repositorio
++ Link que te direcciona al repositorio en Github
+
+![Filter](assets/img/filter_muestra.jpg)
+
+## Ambiente de desarrollo
+#### Dependencias de producción
++ react-bootstrap 0.32.1
+
+#### Dependencias de desarrollo
++ react 16.2.0
++ react-axios 2.0.0
++ react-scripts 1.1.1
++ react-dom 16.2.0
+
+#### Instrucciones para poder utilizarlo: 
+Deberás clonar este repositorio en tu máquina, para ello utilizarás el comando `git clone url-del-repositorio`: 
+ [Github](https://github.com/gvillablanca/github-api.git)
+
+### documentación del API
+La información la obtuvimos desde https://api.github.com
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
