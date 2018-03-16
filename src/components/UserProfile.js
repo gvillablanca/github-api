@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import './App.css';
+import './../App.css';
 import 'react-bootstrap';
+import Repository from './Repository';
+var axios = require('axios');
 
 class UserProfile extends Component{
     constructor(props){
