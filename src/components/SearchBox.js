@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
+import './../App.css';
 import 'react-bootstrap';
+var axios = require('axios');
 
 class SearchBox extends Component{
     state = {username:""}

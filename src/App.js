@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'react-bootstrap';
 import Repository from './components/Repository';
+import RepositoryList from './components/RepositoryList';
 import UserProfile from './components/UserProfile';
 import SearchResult from './components/SearchResult';
 import SearchBox from './components/SearchBox';
@@ -12,10 +13,11 @@ class App extends Component {
     super();
   }
   state = {
-    name:"Genoveva&America",
-    userInfo:[{
-      
+    name: "America&Genoveva",
+    userInfo: [{
+
     }],
+  
     repoInfo:[{
 
     }]
@@ -37,7 +39,7 @@ class App extends Component {
     return (
       <div>
         <div className="jumbotron text-center">
-            <div className="App-title">Github API By - {this.state.name}</div>
+            <div className="App-title">Github Search</div>
         </div>
         <div className="container">
           <SearchBox onSubmit={this.fetchData}/><br/>

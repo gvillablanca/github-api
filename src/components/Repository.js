@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import './App.css';
+import './../App.css';
 import 'react-bootstrap';
 
 class Repository extends Component{
     state={
-      langData:[]
+      langData:null
     }
     constructor(props){
       super(props);
@@ -12,7 +12,7 @@ class Repository extends Component{
   
     render(){
       return(
-        <div className="col-sm-2" onClick={()=>{ this.getLanguage(this.props.languages_url)} }>
+        <div className="col-sm-2">
           <div>{this.props.name}</div>
         </div>
       );

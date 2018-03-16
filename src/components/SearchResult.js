@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import './App.css';
+import './../App.css';
 import 'react-bootstrap';
+import UserProfile from './UserProfile';
+var axios = require('axios');
 
 class SearchResult extends Component{
     constructor(props){
