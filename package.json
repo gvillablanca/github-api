@@ -1,0 +1,44 @@
+{
+  "name": "github",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "flexbox-grid": "^1.0.0",
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-axios": "^2.0.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvillablanca/github-api.git"
+  },
+  "keywords": [
+    "api",
+    "react",
+    "github-api"
+  ],
+  "author": "America&Genoveva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvillablanca/github-api/issues"
+  },
+  "homepage": "https://github.com/gvillablanca/github-api#readme"
+}
